@@ -1,0 +1,14 @@
+@mixin site-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+// Center align, space between
+@mixin align-center-space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+@import '../../mixins.scss';
+@import '../../themes/buttons.scss';
+
+.headerCon {
+    width: 100%;
+    height: 60px;
+    background-color: rgba($color: #fff, $alpha: 0.2);
+    .headerWrapper {
+        @include site-wrapper;
+        @include align-center-space-between;
+        height: 100%;
+        .buttonCon {
+            margin-left: 20px;
+            button {
+                @include btnStyle1;
+                &:first-child {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

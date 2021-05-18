@@ -1,0 +1,21 @@
+@import 'variables';
+
+body {
+    background-color: $background1;
+}
+
+// Overide
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Default btn
+button {
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    font-size: 16px;
+}

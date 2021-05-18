@@ -1,0 +1,6 @@
+@mixin btnStyle1 {
+    background: $accent1;
+    background: linear-gradient(90deg, $accent1 0%, $accent2 100%);
+    padding: 8px 40px;
+    color: #fff;
+}
